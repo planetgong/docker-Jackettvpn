@@ -1,4 +1,8 @@
 #!/bin/bash
+
+USER=${PUID}
+GROUP=${PGID}
+
 if [[ ! -e /config/Jackett ]]; then
 	mkdir -p /config/Jackett
 fi
